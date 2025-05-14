@@ -1,11 +1,24 @@
-html, body {
-    height: 100%;
-    margin: 0;
+/* ice.css */
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    text-align: center; /* Centers inline text */
-    height: 100vh; /* Makes the body take up the full viewport height */
+.top {
+  margin-top: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 400px;
+  height: auto;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+  margin: 20px auto;
 }
