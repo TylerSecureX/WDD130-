@@ -102,6 +102,7 @@ body {
     --book-hover-link-color: #f07524;
     --book-hover-background-color: #396E94;
     color: #f6f5f3;
+    text-align: center;
 }
 
 .join {
