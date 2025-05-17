@@ -1,7 +1,11 @@
 #content {
-  max-width: 1600px; /* or any width you prefer */
-  margin: 0 auto;    /* centers the div horizontally */
-  padding: 20px;     /* optional: adds space inside the div */
+  max-width: 1600px; 
+  margin: 0 auto;    
+  padding: 20px;     
+}
+
+img {
+    margin: 0 auto;
 }
 header {
     background-color: #396E94;
