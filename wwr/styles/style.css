@@ -1,9 +1,9 @@
 #content {
-    width : 100%;
+    width: 100%;
     max-width: 1600px; 
-  margin: 0 auto;    
-  padding: 20px;
-  background-color: rgba(255, 0, 0, 0.1);      
+    margin: 0 auto;    
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.1);      
 }
 
 img {
@@ -20,10 +20,12 @@ header {
     color: #f6f5f3;
     margin: 0 auto; 
 }
+
 h2 {
     text-align: center;
     margin: 0 auto;
 }
+
 h4 {
     background-color: #396E94;
     color: #f6f5f3;
@@ -66,6 +68,7 @@ h4 {
     text-align: center;
     margin: 0 auto;
 }
+
 nav a {
     text-align: center;
     background-color: #396E94;
@@ -103,6 +106,9 @@ body {
 .join {
     color: #f6f5f3;
     text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .join:hover {
