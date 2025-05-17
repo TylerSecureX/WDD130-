@@ -89,6 +89,7 @@ body {
 }
 
 .book {
+    text-align: center;
     background-color: #396E94;
     color: #f6f5f3;
     text-decoration: none;
