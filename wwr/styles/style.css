@@ -203,3 +203,9 @@ footer p a:hover {
 .card-img, .icon {
     margin: 0;
 }
+
+#mountains {
+    display: block; 
+    margin: 0; 
+    padding: 0; 
+}
