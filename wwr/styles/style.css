@@ -89,11 +89,14 @@ body {
 }
 
 .book {
-    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
     background-color: #396E94;
     color: #f6f5f3;
     text-decoration: none;
-    margin: 0 auto; 
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -166,9 +169,10 @@ footer p a:hover {
 }
 
 .logo-1 {
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    width: 80px;
 }
 
 .logo {
@@ -176,6 +180,7 @@ footer p a:hover {
     display: block;
     margin: 0 auto; 
 }
+
 .social {
     display: flex;
     justify-content: flex-start;
@@ -184,8 +189,18 @@ footer p a:hover {
     padding: 1px 0;
 }
 
-
 .social img {
     display: inline-block;
+    margin: 0;
+}
+
+.card-pair {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-img, .icon {
     margin: 0;
 }
