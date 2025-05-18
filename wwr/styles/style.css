@@ -205,13 +205,13 @@ footer p a:hover {
 }
 
 #mountains img {
-    display: block; 
+    display: inline-block; 
     margin: 0; 
     padding: 0; 
 }
 
 .mountains {
-    display: block; 
+    display: inline-block; 
     margin: 0; 
     padding: 0; 
 }
