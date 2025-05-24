@@ -166,7 +166,8 @@ body {
 footer {
     background-color: #396E94;
     color: #f6f5f3;
-    padding: 25px 50px;
+    padding: 15px 30px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -177,7 +178,7 @@ footer a {
 
 footer p {
     font-size: 1.2em;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
 footer p a:hover {
