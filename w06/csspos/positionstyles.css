@@ -139,8 +139,7 @@
 } 
 /* Activity 5 styles */ 
 .content5 {
-  overflow: hidden;
-  background-color: gold;
+    height: 400;
   padding: 10px
  /* Ensures container wraps floated elements */
 }
@@ -156,16 +155,15 @@
   height: 200px;
   background-color: green;
   float: left;
-  margin: 0px 20px 10px 0;
+  margin: 0px 20px 25px 0;
   /*shape-outside: margin-box;
   clip-path: inset(0); /* Ensures shape-outside works in some browsers */
 }
 
 .yellow5 {
-  background-color: transparent;
-  padding: 10px;
-  overflow: hidden;
-  min-height: 200px;
+  background-color: gold;
+  width: 100%;
+  height: 300px;
 }
 
 
@@ -176,20 +174,12 @@
   height: 200px; */
 
 
-.yellow5::after {
-  content: attr(data-after);
-  display: block;
-  clear: left;
-  padding: 10px;
-}
-
 
 
 .blue5 {
   width: 100%;
   height: 100px;
   background-color: blue;
-  clear: both; /* Ensures it appears below floated content */
 }
 
 /* Activity 6 styles */ 
