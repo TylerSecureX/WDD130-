@@ -292,9 +292,6 @@ footer .social img {
     align-items: flex-start;
 }
 
-.card-img, .icon {
-    margin: 0;
-}
 
 .card-img {
     width: auto;
