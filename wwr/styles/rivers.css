@@ -1,0 +1,103 @@
+/* Rivers Page Styles */
+.rivers-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    position: relative;
+}
+
+.rivers-section img {
+    width: 50%;
+    max-width: 600px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+/* Overlay Text Styling */
+.rivers-text {
+    position: absolute;
+    background-color: rgba(57, 110, 148, 0.8);
+    color: #f6f5f3;
+    padding: 20px;
+    max-width: 40%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Alternating text placement */
+.left {
+    left: 5%;
+}
+
+.right {
+    right: 5%;
+}
+
+/* Header Fix for Rivers Page */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #396E94;
+    padding: 15px 30px;
+}
+
+/* Logo Styling */
+.logo-container {
+    width: 150px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 120px;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f6f5f3;
+    font-family: 'Droid Serif', serif;
+    padding: 15px;
+    background-color: #396E94;
+}
+
+nav a:hover {
+    color: #d0b45d;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 900px) {
+    .rivers-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rivers-text {
+        position: static;
+        width: 90%;
+        margin-top: -50px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+}
