@@ -339,6 +339,39 @@ footer .social img {
 
 }
 
+.rivers-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.rivers-section img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.rivers-text {
+    position: absolute;
+    background-color: rgba(57, 110, 148, 0.8); /* Slight transparency */
+    color: #f6f5f3;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.rivers-section:nth-child(odd) .rivers-text {
+    left: 10%;
+}
+
+.rivers-section:nth-child(even) .rivers-text {
+    right: 10%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -380,5 +413,18 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .rivers-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rivers-text {
+        position: static;
+        width: 90%;
+        margin-top: -50px;
     }
 }
