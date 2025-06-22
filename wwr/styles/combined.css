@@ -15,13 +15,21 @@ img {
     margin: 0 auto;
 }
 
+
 header {
-    display: grid;
-    grid-template-columns: 150px auto;
-    background-color: #396E94;
-    font-family: 'Roboto', sans-serif;
-    z-index: 900;
+ display: grid;
+ grid-template-columns: 150px auto;
+ background-color: #396E94;
+ font-family: 'Roboto', sans-serif;
+ z-index: 900;
+
+ /* New styles to restrict width and position */
+ width: fit-content; /* or a specific width like 300px */
+ position: absolute;
+ top: 0;
+ left: 0;
 }
+
 
 #home-title {
     background-color: #396E94;
