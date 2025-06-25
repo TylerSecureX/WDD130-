@@ -390,6 +390,138 @@ footer .social img {
     right: 10%;
 }
 
+.Rivers-page #content {
+    width: 100%;
+    max-width: 1600px; 
+    margin: 0 auto;    
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+header {
+    position: relative;
+    z-index: 10000;
+    top: -10px;
+    left: -10px;
+}
+
+/* Scoped Rivers-page styles */
+/* Rivers Page Styles */
+
+.Rivers-page #content {
+    width: 100%;
+    max-width: 1600px; 
+    margin: 0 auto;    
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.Rivers-page .Salmon-river-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    position: relative;
+}
+
+.Rivers-page .rivers-section img {
+    width: 50%;
+    max-width: 600px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+/* Overlay Text Styling */
+.Rivers-page .rivers-text {
+    position: relative;
+    background-color: rgba(57, 110, 148, 0.8);
+    color: #f6f6f3;
+    padding: 20px;
+    max-width: 40%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Alternating text placement */
+.Rivers-page .left {
+    left: 5%;
+}
+
+.Rivers-page .right {
+    right: 5%;
+}
+
+/* Header Fix for Rivers Page */
+/* .Rivers-page header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #396E94;
+    padding: 15px 30px;
+} */
+
+/* Logo Styling */
+.Rivers-page .logo-container {
+    width: 150px;
+}
+
+.Rivers-page .logo {
+    width: 100%;
+    max-width: 120px;
+}
+
+/* Navigation Styling */
+.Rivers-page nav {
+    display: flex;
+    gap: 20px;
+}
+
+.Rivers-page nav a {
+    text-decoration: none;
+    color: #f6f5f3;
+    font-family: 'Droid Serif', serif;
+    padding: 15px;
+    background-color: #f3c305;
+}
+
+.Rivers-page nav a:hover {
+    color: #d0b45d;
+}
+
+/* Mobile Styling */
+/* .Rivers-page @media screen and (max-width: 900px) {
+    .rivers-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+.Rivers-page .rivers-text {
+        position: static;
+        width: 90%;
+        margin-top: -50px;
+    }
+
+.Rivers-page header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+.Rivers-page .logo-container {
+        margin-bottom: 10px;
+    }
+
+.Rivers-page nav {
+        flex-direction: column;
+    }
+
+.Rivers-page nav a {
+        display: block;
+        padding: 15px;
+    }
+} */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -448,12 +580,4 @@ footer .social img {
         width: 90%;
         margin-top: -50px;
     }
-}
-
-
-header {
-    position: relative;
-    z-index: 10000;
-    top: -10px;
-    left: -10px;
 }
