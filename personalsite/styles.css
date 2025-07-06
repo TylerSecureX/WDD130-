@@ -108,6 +108,27 @@ img {
 }
 
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.about-grid img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-grid p {
+  line-height: 1.6;
+}
+
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
