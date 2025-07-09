@@ -170,7 +170,11 @@ section {
 
 
 
-
+.repair-intro {
+  font-family: var(--paragraph-font);
+  text-align: center;
+  font-size: larger;
+}
 
 .image-container-repair {
  position: relative;
@@ -183,11 +187,12 @@ section {
 }
 
 
-.image-wrapper {
+.image-wrapper img {
  position: absolute;
  width: 100%;
- /* border: 3px solid #444; */
+ border: 3px solid #444;
  box-sizing: border-box;
+ border-radius: 10px;
 }
 
 
@@ -233,6 +238,7 @@ section {
  display: inline-block;
  width: 50%;
  vertical-align: top;
+ font-size: medium;
 }
 
 
