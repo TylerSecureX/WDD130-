@@ -275,6 +275,7 @@ section {
     width: 50%;
     font-size: medium;
     padding-right: 2%;
+    padding-top: 100px; 
 }
 
 .image-container-xbox:hover .hover-image.after {
