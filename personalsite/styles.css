@@ -241,6 +241,50 @@ section {
  font-size: medium;
 }
 
+.image-text-pair {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.image-container-xbox {
+    position: relative;
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image-wrapper img {
+    position: absolute;
+    width: 100%;
+    border: 3px solid #444;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.repair-text-2 {
+    width: 50%;
+    font-size: medium;
+    padding-right: 2%;
+}
+
+.image-container-xbox:hover .hover-image.after {
+    opacity: 1;
+}
+
+.image-container-xbox:hover .hover-image.before {
+    opacity: 0;
+}
+
 
 
 
