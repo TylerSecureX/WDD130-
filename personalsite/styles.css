@@ -287,6 +287,74 @@ section {
 }
 
 
+/* Scoped to handheld_mods.html */
+#handheld-page {
+  font-family: 'Roboto', "Droid Seref";
+  text-align: center;
+  padding: 2rem;
+}
+
+#handheld-page header h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+#handheld-page section {
+  display: inline-block;
+  width: 250px; /* slightly wider for bigger image */
+  margin: 1rem;
+  vertical-align: top;
+}
+
+#handheld-page section img {
+  width: 300px;        /* 👈 increase image size */
+  height: auto;
+  margin-bottom: 0.5rem;
+  border: 2px solid black;  /* 👈 add black border */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* optional subtle shadow */
+  border-radius: 10px;
+}
+
+#handheld-page section h2 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+#handheld-page section p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Optional: make Backlight Mods wider with a button */
+#handheld-page section:last-of-type {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+
+#handheld-page section:last-of-type::after {
+  content: none;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: #f9f9f9;
+  color: #444;
+  border-top: 1px solid #ddd;
+}
+
+footer a {
+  color: #444;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 
 
 @media (max-width: 768px) {
