@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #00B4D8;
-  --secondary-color: #e5e5e5;
+  --secondary-color: #eadf10;
   --accent1-color: #085968;
   --accent2-color: rgb(219, 248, 243);
   --heading-font: 'Droid Serif', serif;
@@ -13,7 +13,7 @@
   --paragraph-color-on-white: #00B4D8;
   --paragraph-color-on-color: white;
   --paragraph-background-color: #00B4D8;
-  --nav-link-color: #e8de9b;
+  --nav-link-color: #f2d621;
   --nav-background-color: #3592ac;
   --nav-hover-link-color: rgb(59, 211, 224);
   --nav-hover-background-color: #3592ac;
@@ -292,7 +292,7 @@ footer a:hover {
 #handheld-page section h2 {
   font-size: 1.1rem;
   margin: 0.5rem 0;
-  color: yellowgreen;
+  color: rgb(0, 0, 0);
 }
 
 #handheld-page section p {
