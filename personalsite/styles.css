@@ -162,9 +162,10 @@ section h2 {
 }
 
 .repair-intro {
-  font-family: var(--paragraph-font);
+  font-family: var(--heading-font);
   text-align: center;
   font-size: larger;
+  font-weight: bold;
 }
 
 /* Home & About page grids */
